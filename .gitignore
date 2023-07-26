@@ -131,3 +131,5 @@ dmypy.json
 .idea
 
 logs
+
+dune_data_cache
