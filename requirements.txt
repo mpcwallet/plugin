@@ -1,0 +1,8 @@
+quart~=0.18.4
+quart-cors
+requests~=2.31.0
+web3~=6.5.0
+python-dotenv~=1.0.0
+dune_client
+pandas~=2.0.2
+loguru~=0.7.0
