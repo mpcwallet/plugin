@@ -29,10 +29,10 @@ MpcWalletPlugin是一个强大的区块链插件，它提供了一系列的功�
 在聊天窗口中输入Prompt
 
 ```tex
-query the balance of 0xe93685f3bba03016f02bd1828badd6195988d950
+查询0xe93685f3bba03016f02bd1828badd6195988d950余额
 ```
 
-![balance-1](./images/balance-1.png)
+![balance-1](./images/balance-1_zh.png)
 
 可以调整输出格式
 
@@ -40,8 +40,7 @@ query the balance of 0xe93685f3bba03016f02bd1828badd6195988d950
 
 **输入以下提示词也会触发查询地址余额的功能：**
 
-1. 查询0xe93685f3bba03016f02bd1828badd6195988d950余额
-2. 0xe93685f3bba03016f02bd1828badd6195988d950
+1. 0xe93685f3bba03016f02bd1828badd6195988d950
 
 ## 2.查询Top N Layer0用户信息
 
@@ -51,13 +50,9 @@ query the balance of 0xe93685f3bba03016f02bd1828badd6195988d950
 query top5 users for layer0
 ```
 
-![layer0-1](./images/layer0-1.png)
+![layer0-1](./images/layer0-1_zh.png)
 
 **注意：**
 
-1. 使用“查询排名前5的Layer0用户信息”也可以触发插件
-2. N是个变量，可以是1、5、10、20等等整数，数值越小，查询速度相对越快
-3. 当N很大的时候，可以提示gpt不使用分页，否则可能会出现结果显示混乱的问题
-4. 因为使用表格显示，查看结果使用滚动条不太方便，可以告诉gpt不使用表格显示
-
-![layer0-2](./images/layer0-2.png)
+1. N是个变量，可以是1、5、10、20等等整数，数值越小，查询速度相对越快
+2. 当N很大的时候，可以提示gpt不使用分页，否则可能会出现结果显示混乱的问题

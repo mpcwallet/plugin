@@ -32,16 +32,15 @@ In the chat window, input the prompt
 query the balance of 0xe93685f3bba03016f02bd1828badd6195988d950
 ```
 
-![balance-1](docs/images/balance-1.png)
+![balance-1](docs/images/balance-1_en.png)
 
 You can adjust the output format.
 
-![balance-2](docs/images/balance-2.png)
+![balance-2](docs/images/balance-2_en.png)
 
 **The following prompts can also trigger the function to query address balance:**
 
-1. 查询0xe93685f3bba03016f02bd1828badd6195988d950余额
-2. 0xe93685f3bba03016f02bd1828badd6195988d950
+1.0xe93685f3bba03016f02bd1828badd6195988d950
 
 ## 2. Query Top N Layer0 User Information
 
@@ -51,13 +50,9 @@ In the chat window, input the prompt
 query top5 users for layer0
 ```
 
-![layer0-1](docs/images/layer0-1.png)
+![layer0-1](docs/images/layer0-1_en.png)
 
 **Note:**
 
-1. Using "查询排名前5的Layer0用户信息" can also trigger the plugin.
-2. N is a variable and can be any integer, such as 1, 5, 10, 20, etc. Smaller values of N generally result in faster queries.
-3. When N is large, you can prompt gpt not to use pagination to avoid potential display issues.
-4. Due to the use of tables for display, scrolling might not be convenient for viewing results. You can prompt gpt not to use table display.
-
-![layer0-2](docs/images/layer0-2.png)
+1. N is a variable and can be any integer, such as 1, 5, 10, 20, etc. Smaller values of N generally result in faster queries.
+2. When N is large, you can prompt gpt not to use pagination to avoid potential display issues.
